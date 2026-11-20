@@ -6,7 +6,7 @@ from flask_swagger_ui import get_swaggerui_blueprint
 # from modules.auth import AUTH_REQUEST
 from flask_pymongo import PyMongo
 APP = Flask(__name__)
-APP.SECRET_KEY = 'thisthesecret'
+APP.SECRET_KEY = os.environ['SECRET_KEY']
 
 SWAGGER_URL = '/swagger'
 API_URL2 = "/api/v1/"

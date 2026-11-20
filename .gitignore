@@ -1,0 +1,16 @@
+# Environnements virtuels et caches Python
+env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Divers
+.DS_Store
+.idea/
+.vscode/
